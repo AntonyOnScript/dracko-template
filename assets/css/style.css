@@ -1,0 +1,7 @@
+a {
+    text-decoration: none;
+}
+
+header, section, footer { /* Temporary for initial development */
+    min-height: 100vh;
+}
