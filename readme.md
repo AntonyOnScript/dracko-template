@@ -96,6 +96,22 @@ h1{
 
 Id's e classes sempre com hífen separando as palavras. E sempre escritos da forma mais clara e objetiva.
 
+
+#### Git flow básico
+
+Antes de dar push:
+
+- dar commit
+- dar pull
+- conferir mudanças no código, se houverem
+- push
+
+Quando for fazer um commit com o mesmo nome que o anterior: 
+
+- git add
+- git commit --amend -m "mensagem de commit"
+- git push ( Caso não funciona git push -f )
+
 # Páginas
 
 | Páginas   |      nome do arquivo      |  url |
@@ -106,11 +122,12 @@ Id's e classes sempre com hífen separando as palavras. E sempre escritos da for
 
 # Seções da home
 
-#home -> topo da home, onde terá um destaque com uma imagem e um titulo
-#blog -> seção que introduz o blog e terá um botão que levará para a página /blog
-#portfolio -> fotos dos projetos que a empresa participou
-#about -> sobre a empresa
-#plans -> seção plans/preços
-#contact -> formulario de contato
-#footer -> rodapé que terá informações de localização e logo da empresa
-
+| Seções   |      Descrição     |
+|----------|:-------------:|
+| #home |  topo da home, onde terá um destaque com uma imagem e um titulo | 
+| #about |    sobre a empresa   |   
+| #blog |  seção que introduz o blog e terá um botão que levará para a página /blog  |   
+| #portfolio |  fotos dos projetos que a empresa participou | 
+| #plans |  seção plans/preços | 
+| #contact |   formulario de contato  |   
+| #footer |  rodapé que terá informações de localização e logo da empresa | 
