@@ -8,10 +8,29 @@
     --light-dark-blue: rgb(5, 68, 94);
 }
 
+body {
+    font: normal 15px "Poppins";
+}
+
 a {
     text-decoration: none;
+    color: var(--lightest-blue);
 }
 
 section, footer { /* Temporary for initial development */
     min-height: 100vh;
+}
+
+.top-menu {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: var(--light-dark-blue);
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
