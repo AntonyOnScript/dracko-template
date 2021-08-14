@@ -32,13 +32,9 @@ section, footer { /* Temporary for initial development */
     background-color: var(--dark-blue);
 }
 
-.nav-menu {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
 .nav-menu a {
     position: relative;
+    padding: 5px 10px;
 }
 
 .nav-menu a::after {
