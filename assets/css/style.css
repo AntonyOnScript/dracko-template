@@ -23,6 +23,11 @@ section, footer { /* Temporary for initial development */
     min-height: 100vh;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat";
+    letter-spacing: 3px;
+}
+
 /* Top menu style */
 
 .top-menu {
