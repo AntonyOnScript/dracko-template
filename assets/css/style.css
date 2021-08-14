@@ -23,6 +23,8 @@ section, footer { /* Temporary for initial development */
     min-height: 100vh;
 }
 
+/* Top menu style */
+
 .top-menu {
     display: flex;
     width: 100%;
@@ -57,3 +59,5 @@ section, footer { /* Temporary for initial development */
     left: 0%;
     background-color: var(--lightest-blue);
 }
+
+/* Top menu style */
