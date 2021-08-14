@@ -36,3 +36,28 @@ section, footer { /* Temporary for initial development */
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+.nav-menu a {
+    position: relative;
+}
+
+.nav-menu a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    background-color: transparent;
+    height: 4px;
+    bottom: -5px;
+    left: 50%;
+    transition: width .4s, left .4s, background-color .4s;
+}
+
+.nav-menu[no-smooth] a::after {
+    background-color: var(--lightest-blue);
+}
+
+.nav-menu a:hover::after {
+    width: 100%;
+    left: 0%;
+    background-color: var(--lightest-blue);
+}
