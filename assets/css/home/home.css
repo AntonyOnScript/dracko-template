@@ -1,0 +1,26 @@
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+#home-h1 {
+    position: absolute;
+    font-size: 40px;
+    color: rgb(24, 154, 180);
+    margin-bottom: 12%;
+    text-shadow: 1px 1px 3px black;
+}
+
+#home-p {
+    position: absolute;
+    font-size: 20px;
+    color: rgb(212, 241, 244);
+    text-shadow: 1px 1px 2px black; 
+}
+
+#home img {
+    width: 100%;
+    max-width: 100%;
+    background-size: cover;
+}
