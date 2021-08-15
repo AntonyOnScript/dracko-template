@@ -8,6 +8,7 @@
     --lightest-dark-blue: rgb(9, 129, 181);
     --light-dark-blue: rgb(37, 84, 105);
     --dark-blue: rgb(5, 68, 94);
+    --padding-space-section-1: 80px;
 }
 
 body {
@@ -66,3 +67,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Top menu style */
+
+/* Generic styles */
+
+.styled-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: #fff;
+}
+
+/* Generic syles */
