@@ -4,14 +4,18 @@
     display: inline-block;
     padding: 10px 100px;
     font-size: 22px;
+    text-align: center;
+    width: 100%;
 }
 
-#plans .plans-h1-under {
+.plans-h1-under {
     background-color: rgb(5, 68, 94);
     color: white;
     display: inline-block;
-    padding: 10px 41.5px;
+    padding: 10px 10px;
     font-size: 22px;
+    width: 100%;
+    text-align: center;
 }
 
 .plans-div {
@@ -19,8 +23,7 @@
     flex-direction: column;
     justify-content: end;
     align-items: center;
-    height: 420px;
-    width: 286px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.192);
 }
 
@@ -31,10 +34,9 @@
 
 .plans-div p:last-child {
     margin-bottom: 25px;
-    
 }
 
-#plans .plans-div .plans-div-h1 {
+.plans-div .plans-div-h1 {
     background-color: unset;
     padding: 5px 15px;
     margin-bottom: 40px;
@@ -43,3 +45,9 @@
     text-shadow: 0.7px 0.7px 1.5px  black;
 }
 
+.plans {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding: var(--padding-space-section-1);
+}
