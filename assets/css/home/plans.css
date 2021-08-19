@@ -1,0 +1,45 @@
+.plans-h1-above {
+    background-color: rgb(5, 68, 94);
+    color: white;
+    display: inline-block;
+    padding: 10px 100px;
+    font-size: 22px;
+}
+
+#plans .plans-h1-under {
+    background-color: rgb(5, 68, 94);
+    color: white;
+    display: inline-block;
+    padding: 10px 41.5px;
+    font-size: 22px;
+}
+
+.plans-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 420px;
+    width: 286px;
+    background-color: rgba(0, 0, 0, 0.192);
+}
+
+.plans-div p {
+    padding: 15px;
+    color: white;
+}
+
+.plans-div p:last-child {
+    margin-bottom: 25px;
+    
+}
+
+#plans .plans-div .plans-div-h1 {
+    background-color: unset;
+    padding: 5px 15px;
+    margin-bottom: 40px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.7px 0.7px 1.5px  black;
+}
+
