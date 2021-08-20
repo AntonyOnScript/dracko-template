@@ -27,6 +27,7 @@
     width: 100%;
     background: #000000de;
 }
+
 .plans-div p {
     padding: 15px;
     color: white;
@@ -48,14 +49,27 @@
 }
 
 .plans {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
+    background: none;
     padding: var(--padding-space-section-1);
-    background-image: url(../../img/background-plans.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
+.background-plans {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -3;
+}
 
+.plans-filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(37, 84, 105, 0.678);
+    z-index: -2;
+}
