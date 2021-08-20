@@ -8,13 +8,14 @@
     width: 100%;
 }
 
-.plans-h1-under {
+.plans-button {
     background-color: rgb(5, 68, 94);
     color: white;
     display: inline-block;
     padding: 10px 10px;
     font-size: 22px;
     width: 100%;
+    border: none;
     text-align: center;
 }
 
@@ -24,11 +25,8 @@
     justify-content: end;
     align-items: center;
     width: 100%;
-    border-left: 1.3px solid black;
-    border-right: 1.3px solid black;
-    background-color: rgba(209, 209, 209, 0.116);
+    background: #000000de;
 }
-
 .plans-div p {
     padding: 15px;
     color: white;
@@ -42,7 +40,8 @@
 .plans-div .plans-div-h1 {
     background-color: unset;
     padding: 5px 15px;
-    margin-bottom: 40px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     font-size: 35px;
     color: rgb(255, 255, 255);
     text-shadow: 0.7px 0.7px 1.5px  black;
