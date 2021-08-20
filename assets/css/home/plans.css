@@ -1,6 +1,3 @@
-.plans {
-    background-image: url(../../img/background-plans.lnk);
-}
 .plans-h1-above {
     background-color: rgb(5, 68, 94);
     color: white;
@@ -27,12 +24,15 @@
     justify-content: end;
     align-items: center;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.192);
+    border-left: 1.3px solid black;
+    border-right: 1.3px solid black;
+    background-color: rgba(209, 209, 209, 0.116);
 }
 
 .plans-div p {
     padding: 15px;
     color: white;
+    text-shadow: 1px 1px 0.2px black;
 }
 
 .plans-div p:last-child {
@@ -53,4 +53,10 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10px;
     padding: var(--padding-space-section-1);
+    background-image: url(../../img/background-plans.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+
