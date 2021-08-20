@@ -12,14 +12,14 @@
 
 .home-h1 {
     font-size: 40px;
-    color: rgb(24, 154, 180);
+    color: var(--just-blue);
     margin-bottom: 20px;
     text-shadow: 1px 1px 3px black;
 }
 
 .home-p {
     font-size: 20px;
-    color: rgb(212, 241, 244);
+    color: var(--lightest-blue);
     text-shadow: 1px 1px 2px black; 
 }
 

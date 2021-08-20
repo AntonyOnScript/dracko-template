@@ -1,5 +1,5 @@
 .plans-h1-above {
-    background-color: rgb(5, 68, 94);
+    background-color: var(--dark-blue);
     color: white;
     display: inline-block;
     padding: 20px;
@@ -9,7 +9,7 @@
 }
 
 .plans-button {
-    background-color: rgb(5, 68, 94);
+    background-color: var(--dark-blue);
     color: white;
     display: inline-block;
     padding: 20px;
