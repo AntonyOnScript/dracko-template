@@ -18,8 +18,21 @@
     width: 80%;
     justify-self: end;
     align-self: flex-end;
+    animation: aboutImgAnimation 3.1s infinite;
 }
 
 .about-button {
     margin-top: 30px;
+}
+
+@keyframes aboutImgAnimation {
+    0% {
+        transform: translateY(0px);
+    } 
+    50%{
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
