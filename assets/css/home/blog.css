@@ -1,0 +1,45 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-space-section-1);
+    align-items: center;
+}
+
+.blog-description {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.blog-recent-posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+}
+
+.post-card {
+    display: flex;
+    flex-direction: column;
+    max-width: 285px;
+}
+
+.post-title-link {
+    color: var(--dark-blue);
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    margin: 10px 0px;
+}
+
+.post-description {
+    padding-left: 15px;
+    position: relative;
+}
+
+.blue-line-post {
+    position: absolute;
+    width: 3px;
+    border: none;
+    height: 95%;
+    left: 0px;
+    background-color: var(--dark-blue);
+}
