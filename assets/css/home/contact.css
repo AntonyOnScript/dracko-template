@@ -1,0 +1,42 @@
+.contact {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: var(--padding-space-section-1);
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset label {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.contact-description {
+    margin-top: 15px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+}
+
+.contact-form input {
+    padding: 10px 20px;
+}
+
+.form-send-button {
+    width: fit-content;
+    justify-self: flex-end;
+}
