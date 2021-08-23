@@ -17,7 +17,6 @@
 .about-img {
     width: 80%;
     justify-self: end;
-    align-self: flex-end;
     animation: aboutImgAnimation 3.1s infinite;
 }
 
