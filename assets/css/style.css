@@ -71,6 +71,12 @@ button {
     background-color: var(--lightest-blue);
 }
 
+.fixed-menu {
+    position: fixed;
+    z-index: 997;
+    background-color: red;
+}
+
 /* Top menu style */
 
 /* Generic styles */
