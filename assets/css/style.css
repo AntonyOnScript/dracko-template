@@ -72,6 +72,7 @@ button {
 }
 
 .fixed-menu {
+    display: none;
     position: fixed;
     z-index: 997;
     background-color: red;
