@@ -5,7 +5,6 @@ const FIXED_MENU_LINKS = document.querySelector('.fixed-menu .nav-menu')
 exportTopMenuLinks(FIXED_MENU_LINKS)
 
 var scrollConstValue
-var already_animated=false
 
 window.onscroll = function () {
     if(document.documentElement.scrollTop < 580){
@@ -13,7 +12,7 @@ window.onscroll = function () {
     }else if(document.documentElement.scrollTop < scrollConstValue){
         FIXED_MENU.style.display = "flex"
     }else if(document.documentElement.scrollTop > scrollConstValue){
-        FIXED_MENU.style.display = "flex"
+        FIXED_MENU.style.display = "none"
     }
     setConstValueScroll()
 }
