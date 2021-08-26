@@ -1,8 +1,10 @@
 const FIXED_MENU = document.querySelector('.fixed-menu')
 const TOP_MENU_LINKS = document.querySelectorAll('.nav-menu a')
 const FIXED_MENU_LINKS = document.querySelector('.fixed-menu .nav-menu')
+const FOOTER_MENU = document.querySelector('.footer-menu')
 
 exportTopMenuLinks(FIXED_MENU_LINKS)
+exportTopMenuLinks(FOOTER_MENU)
 
 var scrollConstValue
 
