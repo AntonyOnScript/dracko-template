@@ -41,15 +41,11 @@ exemplo:
 
 ```js
 if(monkey.length > 30) {
-
 	console.log("We have a lot of monkeys")
-
 }
 
 if(monkey.length < 30) {
-
 	console.log("We don't have a lot of monkeys")
-
 }
 
 ```
