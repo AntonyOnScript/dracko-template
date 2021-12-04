@@ -111,3 +111,59 @@ button {
 }
 
 /* Generic syles */
+
+/* Media Queries */
+
+@media screen and (max-width: 1320px) {
+    .blog-recent-posts {
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .plans {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .about-texts {
+        flex-direction: column-reverse;
+        gap: 40px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .blog-recent-posts {
+        grid-template-columns: 1fr;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .plans {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 463px) {
+    h1 {
+        font-size: 1.5em;
+        letter-spacing: 2.25px;
+    }
+
+    :root {
+        --padding-space-section-1: 40px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Media Queries */
