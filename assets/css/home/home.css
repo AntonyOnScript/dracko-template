@@ -1,4 +1,5 @@
 .home {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,11 +15,13 @@
     font-size: 40px;
     color: var(--just-blue);
     margin-bottom: 20px;
+    z-index: 2;
     text-shadow: 1px 1px 3px black;
 }
 
 .home-p {
     font-size: 20px;
+    z-index: 2;
     color: var(--lightest-blue);
     text-shadow: 1px 1px 2px black; 
 }
