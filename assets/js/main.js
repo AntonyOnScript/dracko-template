@@ -31,3 +31,5 @@ function exportTopMenuLinks(element) {
         element.appendChild(a) 
     })
 }
+
+alert("It was developed by github profiles: @Antony and @AndreKaname. BSD 2-Clause Simplified License")
