@@ -32,4 +32,4 @@ function exportTopMenuLinks(element) {
     })
 }
 
-alert("It was developed by github profiles: @Antony and @AndreKaname. BSD 2-Clause Simplified License.")
+alert("It was developed by github profiles: @AntonyOnScript and @AndreKaname. BSD 2-Clause Simplified License.")
